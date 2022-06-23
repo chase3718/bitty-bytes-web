@@ -26,8 +26,8 @@ export default function Dashboard() {
         fetchUserName();
     }, [user, loading, error]);
     return (
-        <div className="dashboard">
-            
+        <div className="dashboard full-container scroll">
+            Hello Dashboard
         </div>    
     );
 }
