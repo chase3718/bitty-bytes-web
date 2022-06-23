@@ -27,14 +27,7 @@ export default function Dashboard() {
     }, [user, loading, error]);
     return (
         <div className="dashboard">
-            <div className="dashboard__container">
-                Logged in as
-                <div>{name}</div>
-                <div>{user?.email}</div>
-                <button className="dashboard__btn" onClick={logout}>
-                    Logout
-                </button>
-            </div>
-        </div>
+            
+        </div>    
     );
 }
